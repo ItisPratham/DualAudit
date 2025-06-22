@@ -1,5 +1,6 @@
 package com.example.dual_auditing.repository;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -9,6 +10,7 @@ import java.nio.file.StandardOpenOption;
 import java.time.LocalDateTime;
 
 @Component
+@Primary
 public class FileAuditLogger implements AuditLogger{
 
     private static final String FILEPATH = "auditLog.txt";
