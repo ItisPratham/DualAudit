@@ -32,9 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 
-pom.xml
-mvnw.cmd
-mvnw
-/src/test
 .mvn
-/src/main/resources

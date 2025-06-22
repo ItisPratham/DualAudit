@@ -10,7 +10,6 @@ import java.nio.file.StandardOpenOption;
 import java.time.LocalDateTime;
 
 @Component
-@Primary
 public class FileAuditLogger implements AuditLogger{
 
     private static final String FILEPATH = "auditLog.txt";
